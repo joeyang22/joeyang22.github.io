@@ -1,0 +1,150 @@
+body{
+  font-family:"Open Sans",sans-serif;
+}
+a{
+    color:#000;
+    text-decoration:none;
+}
+/*navbar stuff*/
+
+#top{
+
+  background:#4DB6AC;
+  height:3em;
+  width:100%;
+  color: #FFF;
+}
+nav{
+  font-family:"Open Sans Condensed",sans-serif;
+  list-style:none;
+  position:absolute;
+  top:.25em;
+  right:0em;
+  margin-left:10px;
+  cursor:pointer;
+
+
+  li{
+    display:inline-block;
+    font-size:1.5em;
+    width:5em;
+    text-align:center;
+  }
+  ul{
+    margin: 0px;
+    padding:0px;
+  }
+
+}
+
+#shape{
+  position:absolute;
+  top:2.5em;
+  right:15em;
+  height:.5em;
+  width:7.5em;
+  background:#BF360C;
+}
+
+#name{
+  position:absolute;
+  left:.5em;
+  margin:0;
+  font-weight:700;
+  font-size:2em;
+
+}
+
+
+/*divs (main page)*/
+
+
+#aboutpage, #projectspage, #contactpage{
+  display:block;
+  position:absolute;
+  top:3em;
+  text-align:center;
+  width:100%;
+  margin:auto;
+}
+
+#description{
+  width:60%;
+  margin:auto;
+
+}
+/*about page*/
+#tech{
+  list-style:none;
+  font-weight:bold;
+  li{
+    display:inline-block;
+    padding:0 20px;
+    margin-left:-5px;
+  }
+}
+/*projects page*/
+
+#gallery{
+  list-style:none;
+  margin:0;
+  padding:0;
+  li{
+    float:left;
+    margin:2.5%;
+    width:45%;
+    background-color:#f5f5f5;
+
+  }
+
+}
+.projectPic{
+  width:10em;
+  height:10em;
+  margin:5% auto;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+#sss{
+  background-image:url("../img/game.png");
+}
+#kanye{
+
+  background-image:url("../img/kanye.png");
+
+}
+
+#comicsans{
+  background-image:url("../img/comicsans.png");
+}
+
+/*contact*/
+
+.icon{
+  position:relative;
+  background-repeat:no-repeat;
+  display:inline-block;
+  width:10em;
+  height:10em;
+  background-size:cover;
+  margin:5% 5%;
+  padding:5px;
+
+}
+
+
+.icon:hover{
+  top:-1em;
+}
+
+#mail{
+  background-image:url("../img/mail.png");
+
+}
+#github{
+  background-image:url("../img/github.png");
+}
+#twitter{
+  background-image:url("../img/twitter.png");
+}

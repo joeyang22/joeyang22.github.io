@@ -1,0 +1,164 @@
+/* line 1, scss/stylesheet.scss */
+body {
+  font-family: "Open Sans",sans-serif;
+}
+
+/* line 4, scss/stylesheet.scss */
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+/*navbar stuff*/
+/* line 10, scss/stylesheet.scss */
+#top {
+  background: #4DB6AC;
+  height: 3em;
+  width: 100%;
+  color: #FFF;
+}
+
+/* line 17, scss/stylesheet.scss */
+nav {
+  font-family: "Open Sans Condensed",sans-serif;
+  list-style: none;
+  position: absolute;
+  top: .25em;
+  right: 0em;
+  margin-left: 10px;
+  cursor: pointer;
+}
+/* line 27, scss/stylesheet.scss */
+nav li {
+  display: inline-block;
+  font-size: 1.5em;
+  width: 5em;
+  text-align: center;
+}
+/* line 33, scss/stylesheet.scss */
+nav ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 40, scss/stylesheet.scss */
+#shape {
+  position: absolute;
+  top: 2.5em;
+  right: 15em;
+  height: .5em;
+  width: 7.5em;
+  background: #BF360C;
+}
+
+/* line 49, scss/stylesheet.scss */
+#name {
+  position: absolute;
+  left: .5em;
+  margin: 0;
+  font-weight: 700;
+  font-size: 2em;
+}
+
+/*divs (main page)*/
+/* line 62, scss/stylesheet.scss */
+#aboutpage, #projectspage, #contactpage {
+  display: block;
+  position: absolute;
+  top: 3em;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+
+/* line 71, scss/stylesheet.scss */
+#description {
+  width: 60%;
+  margin: auto;
+}
+
+/*about page*/
+/* line 77, scss/stylesheet.scss */
+#tech {
+  list-style: none;
+  font-weight: bold;
+}
+/* line 80, scss/stylesheet.scss */
+#tech li {
+  display: inline-block;
+  padding: 0 20px;
+  margin-left: -5px;
+}
+
+/*projects page*/
+/* line 88, scss/stylesheet.scss */
+#gallery {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 92, scss/stylesheet.scss */
+#gallery li {
+  float: left;
+  margin: 2.5%;
+  width: 45%;
+  background-color: #f5f5f5;
+}
+
+/* line 101, scss/stylesheet.scss */
+.projectPic {
+  width: 10em;
+  height: 10em;
+  margin: 5% auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* line 109, scss/stylesheet.scss */
+#sss {
+  background-image: url("../img/game.png");
+}
+
+/* line 112, scss/stylesheet.scss */
+#kanye {
+  background-image: url("../img/kanye.png");
+}
+
+/* line 118, scss/stylesheet.scss */
+#comicsans {
+  background-image: url("../img/comicsans.png");
+}
+
+/*contact*/
+/* line 124, scss/stylesheet.scss */
+.icon {
+  position: relative;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 10em;
+  height: 10em;
+  background-size: cover;
+  margin: 5% 5%;
+  padding: 5px;
+}
+
+/* line 137, scss/stylesheet.scss */
+.icon:hover {
+  top: -1em;
+}
+
+/* line 141, scss/stylesheet.scss */
+#mail {
+  background-image: url("../img/mail.png");
+}
+
+/* line 145, scss/stylesheet.scss */
+#github {
+  background-image: url("../img/github.png");
+}
+
+/* line 148, scss/stylesheet.scss */
+#twitter {
+  background-image: url("../img/twitter.png");
+}
