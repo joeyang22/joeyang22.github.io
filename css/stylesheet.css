@@ -163,7 +163,12 @@ nav ul {
   background-image: url("../img/linkedin.png");
 }
 
-/* line 153, scss/stylesheet.scss */
+/* line 152, scss/stylesheet.scss */
+#startingStretching {
+  background-image: url("../img/ss.png");
+}
+
+/* line 156, scss/stylesheet.scss */
 #sunshine {
   background-image: url("../img/sunshine.png");
 }
