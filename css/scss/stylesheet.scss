@@ -1,3 +1,6 @@
+$navbar_colour: #4DB6AC;
+$shape_colour: #BF360C;
+
 body{
   font-family:"Open Sans",sans-serif;
 }
@@ -9,7 +12,7 @@ a{
 
 #top{
 
-  background:#4DB6AC;
+  background:$navbar_colour;
   height:3em;
   width:100%;
   color: #FFF;
@@ -43,7 +46,7 @@ nav{
   right:15em;
   height:.5em;
   width:7.5em;
-  background:#BF360C;
+  background:$shape_colour;
 }
 
 #name{
@@ -93,9 +96,11 @@ nav{
     float:left;
     margin:2.5%;
     width:45%;
+    min-height:22em;
     background-color:#f5f5f5;
 
   }
+
 
 }
 .projectPic{
