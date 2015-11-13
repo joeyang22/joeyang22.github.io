@@ -100,9 +100,9 @@ nav ul {
 /* line 95, scss/stylesheet.scss */
 #gallery li {
   float: left;
-  margin: 2.5%;
+  margin: 2%;
   width: 45%;
-  min-height: 22em;
+  min-height: 24em;
   background-color: #f5f5f5;
 }
 
@@ -172,4 +172,9 @@ nav ul {
 /* line 161, scss/stylesheet.scss */
 #sunshine {
   background-image: url("../img/sunshine.png");
+}
+
+/* line 165, scss/stylesheet.scss */
+#barcodeBattle {
+  background-image: url("../img/barcodebattle.png");
 }
