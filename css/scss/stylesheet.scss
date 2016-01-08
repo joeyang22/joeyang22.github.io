@@ -5,7 +5,7 @@ body{
   font-family:"Open Sans",sans-serif;
 }
 a{
-    color:#000;
+    color:#FFF;
     text-decoration:none;
 }
 /*navbar stuff*/
@@ -15,7 +15,7 @@ a{
   background:$navbar_colour;
   height:3em;
   width:100%;
-  color: #FFF;
+  color: #fff;
 }
 nav{
   font-family:"Open Sans Condensed",sans-serif;
@@ -43,7 +43,7 @@ nav{
 #shape{
   position:absolute;
   top:2.5em;
-  right:15em;
+  right:22.5em;
   height:.5em;
   width:7.5em;
   background:$shape_colour;
@@ -58,6 +58,10 @@ nav{
 
 }
 
+#resumeLink{
+  text-decoration: none;
+  color:#FFF;
+}
 
 /*divs (main page)*/
 
